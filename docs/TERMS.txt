@@ -1,0 +1,17 @@
+# 利用条件
+
+対象: ServerStarter 0.4.0 Beta 7
+
+ServerStarterは開発途中の無料ベータ版です。小規模な友達同士のMinecraft Java Editionサーバーを利用者自身のWindows PCで動かす用途を想定しています。大規模公開サーバー、業務利用、無停止運用は対象外です。
+
+利用者はMinecraftおよび配布ワールドの各利用条件を守ってください。Minecraftサーバーを初めて作成・読み込みする際は、アプリ内からMinecraft EULAを確認し、同意した場合だけ処理を開始します。
+
+ネットワーク構成、通信事業者側の制限、二重ルーター、CGNAT、利用可能なIPv6がない環境などにより、外部公開できない場合があります。ServerStarterは判定できた範囲で原因候補と操作方法を表示しますが、すべての回線で外部公開できることを保証しません。
+
+重要なワールドは利用者自身でも別の場所へバックアップしてください。本ベータ版には不具合が残る可能性があります。
+
+ServerStarterは独立した非公式製品です。Minecraft公式製品ではなく、MojangまたはMicrosoftにより承認されたものでも、両社と関係するものでもありません。MinecraftはMicrosoft Corporationの商標です。
+
+Minecraftサーバーソフトウェア、Minecraft本体、配布ワールドはServerStarterに同梱しません。
+
+ServerStarter.exeには、アプリの一部としてのみ使用されるMicrosoft .NETおよびWindows SDKの再頒布可能コードが含まれます。これらの第三者コンポーネントには、同梱のDOTNET_LICENSE.txt、DOTNET_MIT_LICENSE.txt、WINDOWS_SDK_LICENSE.txtおよびDOTNET_THIRD_PARTY_NOTICES.txtの条件が適用されます。利用者はこれらの表示を削除、最小化、遮断または改変せず、各ライセンスおよび適用法令で認められる範囲を超えて技術的制限の回避、逆アセンブル、逆コンパイルまたはリバースエンジニアリングを行わないものとします。Microsoftの商標を、MicrosoftがServerStarterを提供、承認または推奨していると示す目的で使用することはできません。これらの条件に同意できない場合はServerStarterを使用しないでください。
