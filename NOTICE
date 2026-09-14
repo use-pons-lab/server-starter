@@ -1,0 +1,22 @@
+ServerStarter is an independent application.
+
+NOT AN OFFICIAL MINECRAFT PRODUCT.
+NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
+
+Minecraft is a trademark of Microsoft Corporation.
+Minecraft server software is not included with this application. If the user
+chooses to create a server, it is downloaded from an authorized source under
+the terms presented to the user.
+
+When a compatible runtime is not already available, the application downloads
+Eclipse Temurin from the official Eclipse Adoptium distribution service and
+keeps it in the application's private data directory. It is not included in
+this application package.
+
+Publisher: use pon's lab
+Support: https://use-pons-lab-site.pages.dev/contact/
+
+When the user accepts the first-use explanation for an external connection
+check, the application contacts portchecker.io. The service sees the connection's
+public IP address and receives the selected TCP port. World data, Minecraft
+account credentials, and router passwords are not sent to the service.

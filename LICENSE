@@ -1,0 +1,12 @@
+ServerStarter License Notice
+============================
+
+Copyright (c) 2026 use pon's lab. All rights reserved.
+
+ServerStarter本体の利用には、同梱のTERMS.txtに記載された利用条件が適用されます。
+本ファイルはServerStarter本体をオープンソースライセンスで提供するものではありません。
+
+ServerStarter.exeに含まれる第三者コンポーネントには、それぞれのライセンスが適用されます。
+詳細はTHIRD_PARTY_NOTICES.txtを確認してください。
+
+Minecraftサーバーソフトウェア、Minecraft本体、配布ワールドは本配布物に含まれません。

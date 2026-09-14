@@ -1,0 +1,52 @@
+# 第三者ソフトウェアと権利表示
+
+対象: ServerStarter 0.4.0 Beta 7
+
+## .NET Runtime
+
+ServerStarter.exeには、Microsoft .NET 8.0.31のWindows x64 RuntimeおよびWindows Desktop Runtimeが自己完結・単一ファイル形式で含まれます。
+
+Microsoft公式の「License information for .NET on Windows」に基づき、含まれるバイナリには次のライセンスが適用されます。
+
+- .NET Library License: 単一ファイルへ埋め込まれたcoreclrおよび.NET Runtime、PresentationNative_cor3.dll、vcruntime140_cor3.dll、wpfgfx_cor3.dll
+- Windows SDK License: D3DCompiler_47_cor3.dll
+- MIT License: PenImc_cor3.dllおよび上記以外のMIT対象.NETバイナリ・ライブラリ
+
+配布物には次の文書を同梱しています。
+
+- DOTNET_LICENSE.txt: Microsoft .NET Library License Terms
+- DOTNET_MIT_LICENSE.txt: .NETのMIT License
+- WINDOWS_SDK_LICENSE.txt: D3DCompiler_47_cor3.dllに適用されるWindows SDK License Terms
+- DOTNET_THIRD_PARTY_NOTICES.txt: .NET 8.0.31の公式第三者通知
+
+公式ライセンス情報:
+
+- https://github.com/dotnet/core/blob/main/license-information.md
+- https://github.com/dotnet/core/blob/main/license-information-windows.md
+- https://github.com/dotnet/runtime/blob/main/docs/project/licensing-assets.md
+- https://dotnet.microsoft.com/dotnet_library_license.htm
+- https://learn.microsoft.com/legal/windows-sdk/license
+
+MIT License対象部分の著作権・許諾表示:
+
+Copyright (c) .NET Foundation and Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Official third-party notices: https://github.com/dotnet/runtime/blob/main/THIRD-PARTY-NOTICES.TXT
+
+## Minecraft server software
+
+Minecraftサーバーソフトウェアは本アプリに同梱しません。利用者がMinecraft EULAを確認して同意した後、Minecraft公式配信元から取得します。
+
+Minecraft EULA: https://www.minecraft.net/eula
+
+## Eclipse Temurin
+
+対応Javaがない場合、Eclipse Adoptiumの公式配信サービスからEclipse Temurinを取得し、取得元が示すSHA-256で検証して利用者別データ領域へ保存します。Eclipse TemurinはServerStarter.exeに同梱しません。取得したランタイムに付属するライセンス条件が適用されます。
+
+Eclipse Adoptium: https://adoptium.net/
